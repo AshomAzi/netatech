@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Apply for a Project with NexaTech Solutions. Tell us what you need, from web development to custom software, and our team will get back to you.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexaTech Solutions | Apply for a Project</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">NexaTech</div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../services.html">Services</a></li>
+                <li><a href="./application.html">Application</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cta">
+            <a href="./application.html">Start a Project</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="application-form">
+            <h1>Tell Us About Your Project</h1>
+            <p>Complete the form below to request a project proposal. Fields marked as <strong>required</strong> must be
+                filled out so our engineering team can prepare an <em>accurate estimate</em>.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Client Contact Information</legend>
+
+                    <p>
+                        <label for="name">Full Name (Required):</label><br>
+                        <input type="text" id="name" name="name" minlength="2" maxlength="80" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address (Required):</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Telephone Number (Required):</label><br>
+                        <input type="tel" id="phone" name="phone"
+                            placeholder="+234 800 000 0000" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Project Scope &amp; Preferences</legend>
+
+                    <p>
+                        <label for="project-type">Primary Service Needed (Required):</label><br>
+                        <select id="project-type" name="project-type" required>
+                            <option value="">-- Select a service --</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="custom-software">Custom Software</option>
+                            <option value="it-consulting">IT Consulting</option>
+                            <option value="maintenance">Maintenance &amp; Support</option>
+                        </select>
+                    </p>
+
+                    <p>Estimated Budget Tier (Required):</p>
+                    <p>
+                        <input type="radio" id="budget-starter" name="budget" value="starter" required>
+                        <label for="budget-starter">Starter (&#8358;300,000)</label><br>
+
+                        <input type="radio" id="budget-growth" name="budget" value="growth">
+                        <label for="budget-growth">Growth (&#8358;300,000 &ndash; &#8358;1,000,000)</label><br>
+
+                        <input type="radio" id="budget-enterprise" name="budget" value="enterprise">
+                        <label for="budget-enterprise">Enterprise (&#8358;1,000,000 and above)</label>
+                    </p>
+
+                    <p>Additional Features Needed (Select all that apply):</p>
+                    <p>
+                        <input type="checkbox" id="feat-seo" name="features" value="seo">
+                        <label for="feat-seo">Search Engine Optimization (SEO)</label><br>
+
+                        <input type="checkbox" id="feat-hosting" name="features" value="hosting">
+                        <label for="feat-hosting">Domain &amp; Cloud Hosting Setup</label><br>
+
+                        <input type="checkbox" id="feat-training" name="features" value="training">
+                        <label for="feat-training">Staff Technical Training</label>
+                    </p>
+
+                    <p>
+                        <label for="description">Project Description &amp; Goals (Required):</label><br>
+                        <textarea id="description" name="description" rows="5" cols="45" minlength="20"
+                            required></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Submit Project Application</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NexaTech Solutions. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
